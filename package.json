@@ -1,0 +1,29 @@
+{
+  "name": "awsxray",
+  "version": "1.0.0",
+  "description": "Demo application specifying use of aws xray",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latiffOpenWorld/awsxray.git"
+  },
+  "keywords": [
+    "aws",
+    "xray"
+  ],
+  "author": "bharat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latiffOpenWorld/awsxray/issues"
+  },
+  "homepage": "https://github.com/latiffOpenWorld/awsxray#readme",
+  "dependencies": {
+    "aws-sdk": "^2.85.0",
+    "aws-xray-sdk": "^1.1.2",
+    "express": "^4.15.3",
+    "winston": "^2.3.1"
+  }
+}
